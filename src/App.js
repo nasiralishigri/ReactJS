@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Navbar , NavbarBrand} from 'reactstrap';
+import './menuComponent.js';
+import Menu from './menuComponent.js';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,9 @@ function App() {
 </div>
 
       </Navbar>
+
+
+     <Menu/>>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
